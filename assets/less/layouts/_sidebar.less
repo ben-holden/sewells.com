@@ -1,0 +1,186 @@
+.wmsidebar {
+	width: 100%;
+	background-color: #BAC4AE;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	img {
+		width: 100%;
+	}
+}
+
+.sidebarcta {
+	width: 100%;
+	background-image: url(../img/sidebooks.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-color: #BAC4AE;
+	background-size: 100%;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	h3 {
+		font-size: 32px;
+		margin-top: 460px;
+		margin-bottom: 20px;
+		color: @off-white!important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+	a {
+		font-size: 18px;
+		color: @off-white!important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+}
+
+.sidebarcta2 {
+	width: 100%;
+	background-color: #265060;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	h3 {
+		font-size: 38px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		color: @off-white!important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+	h4 {
+		font-size: 18px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+		color: #D7E3C8!important;
+	}
+	a {
+		font-size: 18px;
+		color: @off-white!important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+}
+
+.sidebartestimonial{
+	width: 100%;
+	background-image: url(../img/sidebar_testimonial.png);
+	background-position: center 20px;
+	background-repeat: no-repeat;
+	background-color: #BAC4AE;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	text-align: center;
+	h4{
+		font-size: 18px;
+		margin-top: 200px;
+		margin-bottom: 20px;
+		line-height: 1.5;
+		color: white!important;
+	}
+	h5 {
+		font-size: 18px;
+		line-height: 1.5;
+		color: #64685F!important;
+	}
+	.shelllogo{
+		width: 44px;
+		height: 40px;
+		margin: 0 auto;
+		background-image: url(../img/shelllogo.png);
+	}
+}
+
+.widget_search {
+	background-color: #BAC4AE;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+	.input-group {
+		width: 100%;
+		.search-field {
+			width: 100%;
+		}
+		.search-submit {
+			width: 100%;
+		}
+	}
+}
+
+.widget_recent_entries {
+	background-color: #BAC4AE;
+	padding: 15px;
+	border-radius: 10px;
+	margin-bottom: 30px;
+	width: 100%;
+	text-align: center;
+	h3 {
+		font-size: 32px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		color: #E2E8DB!important;
+		text-transform: uppercase;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+		li {
+			margin-bottom: 5px;
+		}
+		li a {
+			font-size: 16px;
+			color: #265060!important;
+
+		}
+	}
+}
+
+/// MEDIA QUERY MAGIQUE
+
+@media (min-width: @screen-xs-min) {
+	.sidebarcta {
+		background-size: 300px;
+		background-image: url(../img/sidebooks_small.png);
+		background-position: center 30px;
+		background-repeat: no-repeat;
+		h3 {
+			margin-top: 340px;
+			font-size: 24px;
+		}
+	}
+}
+
+@media (min-width: @screen-sm-min) {
+	.sidebarcta {
+		background-size: 100%;
+		background-image: url(../img/sidebooks.png);
+		background-position: top center;
+		background-repeat: no-repeat;
+		h3 {
+			margin-top: 290px;
+			font-size: 24px;
+		}
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	.sidebarcta {
+		h3 {
+			font-size: 32px;
+			margin-top: 370px;
+		}
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.sidebarcta {
+		h3 {
+			font-size: 32px;
+			margin-top: 460px;
+		}
+	}
+}
+
+.sidebar {
+  	.make-sm-column(@sidebar-sm-columns);
+}

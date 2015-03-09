@@ -1,0 +1,116 @@
+.content-info { 
+	width: 100%;
+	background-color: #0D191F;
+	padding: 40px 0;
+	text-align: center;	
+	.socialicons {
+		margin-bottom: 15px;
+		text-align: center;
+		display: inline-block;
+		a{
+			background-image: url(../img/socialsprite.png);
+			display: block;
+			float: left;
+			width: 23px;
+			height: 23px;
+			margin-right: 10px;
+		}
+	}
+	.twitter {
+		background-position: 0px 0px;
+	}
+	.linkedin {
+		background-position: -23px 0px;
+	}
+	.amazon {
+		background-position: -46px 0px;
+	}
+	.vimeo {
+		background-position: -69px 0px;
+	}
+	.gplus {
+		background-position: -92px 0px;
+	}
+	p {
+		line-height: 1.5;
+	}
+	p.address {
+		color: #B3D0D1;
+		font-size: 18px;
+	}
+	p.colophon {
+		color: #83CFD0;
+		font-size: 0.9em;
+	}
+	.footerlogos {
+		background: url(../img/footerlogos.png) no-repeat;
+		background-position: center bottom;
+		height: 100px;
+	}
+}
+
+///////////// 
+///
+///				MEDIA QUERY MAGIQUE
+///
+/////////////
+
+
+@media (min-width: @screen-sm-min) {
+	.content-info {
+		text-align: left;
+		p {
+			line-height: 1;
+		}
+		p.address {
+			font-size: 16px;
+		}
+		.socialicons {
+			text-align: left;
+		}
+		.footerlogos {
+			background-position: right bottom;
+			background-size: 240px;
+			height: 92px;
+		}
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	.content-info {
+		p {
+			line-height: 1.5;
+		}
+		.footerlogos {
+			background-position: right bottom;
+			background-size: 247px;
+			height: 100px;
+		}
+	}
+}
+
+
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+	.content-info { 
+		.socialicons {
+			a{
+				background-image: url(../img/socialsprite@2X.png);
+				background-size: 138px;
+			}
+		}
+		.footerlogos {
+			background: url(../img/footerlogos@2X.png) no-repeat center;
+			background-size: 247px;
+		}
+	}
+}
+
+
+
+
+
+
+

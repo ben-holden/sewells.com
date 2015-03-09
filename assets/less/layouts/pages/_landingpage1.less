@@ -1,0 +1,679 @@
+.page-template-template-landingpage1-php .navbar-nav {
+	//display: none;
+}
+
+.page-template-template-landingpage1-php .container {
+	margin: 0 auto;
+}
+
+.page-template-template-landingpage1-php .nav-header {
+	background-image: url(../img/landingpage_bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom: none;
+	z-index: 0;
+	border-bottom: 6px solid #1A2F32;
+	padding-bottom: 40px;
+	padding-top: 20px;
+	margin: 0px 0 0px;
+	text-align: left;
+	h1 {
+		color: white;
+		font-size: 32px;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+		padding-right: 20px;
+	}
+	h2 {
+		margin: 0 auto;
+		margin-top: 30px;
+		font-family: 'brandon_textlight';
+		font-size: 18px;
+		line-height: 1.5;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+		padding-right: 20px;
+	}
+	a {
+		margin-top: 32px;
+		font-size: 14px;
+		font-family: 'brandon_textlight';
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	}
+	.container {
+		position: relative;
+	}
+}
+
+.page-template-template-landingpage1-php .signupbox {
+	background: url('../img/signup_bg.png') 100% 100% no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-radius: 10px;
+	display: none;
+	border: 5px solid #888F7E;
+	margin: 0 auto;
+	margin-top: 20px;
+	position: static;
+	right: auto;
+	.signup-image {
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 30px;
+	}
+	h4 {
+		text-align: center;
+		font-size: 20px;
+		color: #0E3745;
+		margin-bottom: 10px;
+
+	}
+	form {
+		button, input {
+			text-align: center;
+			height: 50px;
+			padding: 6px 12px;
+			width: 100%;
+			font-size: 22px;
+		}
+		div.mce_inline_error {
+			text-align: center;
+			color: #DE4441;
+			margin-top: 5px;
+		}
+		div#mce-success-response, div#mce-error-response {
+			text-align: center;
+			padding: 10px;
+			color: #384A44;
+		}
+		.spam {
+			text-align: center;
+			margin-top: 10px;
+		}
+	}
+}
+
+.page-template-template-landingpage1-php .xsonly {
+	display: block;
+	margin-top: 50px;
+}
+
+
+.page-template-template-landingpage1-php .homeservices {
+	text-align: left;
+	border-bottom: 6px solid #1A2F32;
+	padding-bottom: 30px;
+	h3 {
+		width: 100%;
+		color: @cream;
+		margin: 0 auto;
+		margin-top: 30px;
+		font-family: 'brandon_textlight';
+		font-size: 18px;
+		line-height: 1.5;
+		text-shadow: 1px 1px 2px rgba(0,0,0,0.6);
+		strong {
+			color: #E79E3F;
+			font-family: 'brandon_textlight';
+			font-weight: normal;
+		}
+	}
+	ul {
+		margin-top: 20px;
+		margin-left: 0px;
+		padding-left: 10px;
+	}
+	li {
+		padding-top: 15px;
+		padding-left: 60px;
+		padding-bottom: 15px;
+		margin-top: 5px;
+		list-style-type: none;
+		background: url('../img/landingbullet.png') left center no-repeat;
+		font-family: 'brandon_textlight';
+		font-size: 18px;
+		text-shadow: 1px 1px 2px rgba(0,0,0,1);
+	}
+}
+
+
+.page-template-template-landingpage1-php .homeclients {
+	text-align: center;
+	background-color: #BAC4AE;
+	border-bottom: 6px solid #2C3B36;
+	padding-bottom: 20px;
+	h4 {
+		margin-top: 25px;
+		font-size: 16px;
+		line-height: 1.5;
+		font-family: 'brandon_textmedium';
+		color: #9BA290;
+	}
+	.clientlogos {
+		margin: 0 auto;
+		margin-top: 15px;
+		width: 240px;
+		background-image: url(../img/clientlogos_mini.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100%;
+		height: 260px;
+	}
+}
+
+
+
+///////////// 
+///
+///				MEDIA QUERY MAGIQUE
+///
+/////////////
+
+/////////////   HEADER
+
+@media (min-width: @screen-xs-min) {
+	.page-template-template-landingpage1-php .nav-header{
+		padding-top: 50px;
+		h1 {
+			font-size: 42px;
+		}
+		h2 {
+			font-size: 20px;
+		}
+		a {
+			font-size: 17px;
+		}
+	}
+	.page-template-template-landingpage1-php .signupbox {
+
+	}
+	.page-template-template-landingpage1-php .homeservices{
+		h3 {
+			font-size: 20px
+		}
+		h4 {
+			margin-top: 15px;
+			font-size: 18px
+		}
+	}
+	.page-template-template-landingpage1-php .homeclients{
+		padding-bottom: 30px;
+		h4 {
+			font-size: 20px;
+		}
+		.clientlogos {
+			margin: 0 auto;
+			margin-top: 25px;
+			width: 90%;
+			max-width: 550px;
+			background-image: url(../img/clientlogos_sm.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100%;
+			height: 200px;
+		}
+	}
+	.page-template-template-landingpage1-php .homevideo{
+		h4 {
+			font-family: 'brandon_textthin';
+			line-height: 1.8;
+			font-size: 20px
+		}
+		a {
+			font-family: 'brandon_textthin';
+		}
+	}
+	.page-template-template-landingpage1-php .hometestimonials{
+		h3 {
+			font-size: 20px
+		}
+		p {
+			font-size: 18px
+		}
+		h4.person {
+			font-size: 18px
+		}
+		
+	}
+}
+
+@media (min-width: @screen-sm-min) {
+	.page-template-template-landingpage1-php .nav-header{
+		padding-top: 150px;
+		h1 {
+			font-size: 43px;
+		}
+		h2 {
+			font-size: 23px;
+		}
+		a {
+			font-size: 17px;
+		}
+	}
+	.page-template-template-landingpage1-php .signupbox {
+		margin: none;
+		display: block;
+		position: absolute;
+		right: 15px;
+	}
+	.page-template-template-landingpage1-php .xsonly {
+		display: none;
+	}
+	.page-template-template-landingpage1-php .homeservices{
+		h3 {
+			font-size: 23px
+		}
+		li {
+			font-size: 18px;
+		}
+		h4 {
+			margin-top: 15px;
+			font-size: 20px
+		}
+	}
+	.page-template-template-landingpage1-php .homeclients{
+		padding-bottom: 30px;
+		h4 {
+			font-size: 20px;
+		}
+		.clientlogos {
+			margin: 0 auto;
+			margin-top: 25px;
+			width: 316px;
+			max-width: none;
+			background-image: url(../img/clientlogos_mini.jpg);
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: 100%;
+			height: 300px;
+		}
+	}
+	.page-template-template-landingpage1-php .homevideo{
+		h4 {
+			font-family: 'brandon_textthin';
+			line-height: 1.8;
+			font-size: 20px
+		}
+		a {
+			font-family: 'brandon_textthin';
+		}
+	}
+	.page-template-template-landingpage1-php .hometestimonials{
+		h3 {
+			font-size: 20px
+		}
+		p {
+			font-size: 18px
+		}
+		h4.person {
+			font-size: 18px
+		}
+		
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.page-template-template-landingpage1-php .nav-header {
+		h1 {
+		font-size: 58px;	
+		}
+	}
+}
+
+/////////////   CLIENT LOGOS
+
+@media (min-width: @screen-sm-min) {
+	.page-template-template-landingpage1-php .homeclients .clientlogos {
+		background-image: url(../img/clientlogos_sm.jpg);
+		width: 100%;
+		height: 170px;
+		background-size: 550px;
+	}
+}
+@media (min-width: @screen-md-min) {
+	.page-template-template-landingpage1-php .homeclients .clientlogos {
+		background-image: url(../img/clientlogos.jpg);
+		height: 69px;
+		background-size: 800px;
+	}
+}
+@media (min-width: @screen-lg-min) {
+	.page-template-template-landingpage1-php .homeclients .clientlogos {
+		background-image: url(../img/clientlogos.jpg);
+		height: 69px;
+		background-size: 950px;
+	}
+}
+
+/////////////   VIDEO PANEL
+
+@media (min-width: @screen-xs-min) {
+	.page-template-template-landingpage1-php .homevideo {
+		text-align: center;
+		h4 {
+			font-size: 18px;
+			margin-top: 45px;
+			margin-left: 0px;
+	    }
+		.videocontainer {
+			float: none;
+			width: 378px;
+			height: 213px;
+			margin: 0 auto;
+			background-position: center;
+		}
+		a {
+			font-size: 16px;
+			margin-left: 0px;
+		}
+	}
+}
+
+@media (min-width: @screen-sm-min) {
+	.page-template-template-landingpage1-php .homevideo {
+		text-align: left;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		h4 {
+			font-size: 20px;
+			margin-top: 18px;
+			margin-left: 80px;
+			margin-bottom: 20px;
+			line-height: 1.5;
+	    }
+		.videocontainer {
+			width: 388px;
+			height: 240px;
+			background-position: center;
+			background-size: 445px;
+		}
+		a {
+			font-size: 16px;
+			margin-left: 80px;
+		}
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	.page-template-template-landingpage1-php .homevideo {
+		h4 {
+			font-size: 25px;
+			margin-top: 30px;
+			margin-bottom: 20px;
+			line-height: 1.5;
+			margin-left: 30px;
+		}
+		a {
+			margin-left: 30px;
+		}
+	}
+	.page-template-template-landingpage1-php .homevideo .videocontainer {
+		width: 385px;
+		background-position: center;
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.page-template-template-landingpage1-php .homevideo {
+		h4 {
+			font-size: 25px;
+			margin-top: 35px;
+			margin-bottom: 20px;
+			line-height: 1.8;
+			margin-left: 30px;
+		}
+		a {
+			margin-left: 30px;
+		}
+	}
+	.page-template-template-landingpage1-php .homevideo .videocontainer {
+		margin-right: 10px;
+		width: 455px;
+		background-position: center;
+	}
+}
+
+
+/////////////   TESTIMONIAL PANEL
+
+
+@media (min-width: @screen-sm-min) {
+	.page-template-template-landingpage1-php .hometestimonials {
+		.col-sm-4 {
+			margin-top: 25px;
+		}
+		p {
+		}
+		h4.person {
+		}
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	.page-template-template-landingpage1-php .hometestimonials {
+		.col-sm-4 {
+			margin-top: 25px;
+		}
+		p {
+			font-size: 20px;
+		}
+		h4.person {
+			font-size: 16px;
+		}
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.page-template-template-landingpage1-php .hometestimonials {
+		.col-sm-4 {
+		}
+		p {
+			font-size: 20px;
+		}
+		h4.person {
+			font-size: 20px;
+		}
+	}
+}
+
+/////////////   CALL TO ACTION PANEL
+
+@media (min-width: @screen-xs-min) {
+	.page-template-template-landingpage1-php .calltoaction {
+		padding: 50px 0;
+		background-color: #152C36;
+		text-align: center;
+		.ebookpics {
+			background: url(../img/ebookshome.jpg) center no-repeat;
+			height: 563px;
+			background-size: 380px;
+		}
+		h2 {
+			font-size: 36px;
+			margin-top: 0px;
+			font-family: 'brandon_textthin';
+		}
+		.form-horizontal  {
+			.form-group {
+				text-align: left;
+			}
+		}
+	}
+}
+
+
+@media (min-width: @screen-sm-min) {
+	.page-template-template-landingpage1-php .calltoaction {
+		padding: 50px 0;
+		background-color: #152C36;
+		text-align: left;
+		.ebookpics {
+			background: url(../img/ebookshome.jpg) center top no-repeat;
+			height: 563px;
+			background-size: 100%;
+		}
+		h2 {
+			font-family: 'brandon_textthin';
+			font-size: 34px;
+			line-height: 1.3;
+			margin-top: 0px;
+			margin-bottom: 20px;
+		}
+		h4 {
+			color: #4A7475;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+		.form-horizontal  {
+			font-size: 16px;
+			padding: 12px 20px;
+			.form-group {
+				margin-bottom: 0px;
+			}
+			.form-control {
+				margin-bottom: 10px;
+			}
+			.control-label {
+				margin-bottom: 10px;
+				padding-top: 7px;
+				padding-left: 24px;
+			}
+			.spam {
+				margin-bottom: 10px;
+			}
+			.requiredfield {
+				padding-top: 0;
+				margin-top: 0;
+				margin-bottom: 23px;
+			}
+		}
+	}
+}
+
+@media (min-width: @screen-md-min) {
+	.page-template-template-landingpage1-php .calltoaction {
+		.ebookpics {
+			background-size: 408px;
+		}
+		h2 {
+			font-family: 'brandon_textthin';
+			font-size: 48px;
+		}
+		h4 {
+			color: #4A7475;
+			line-height: 1.5;
+			margin-bottom: 30px;
+		}
+		.form-horizontal  {
+			padding: 14px 12px 7px 5px;
+			font-size: 18px;
+			.form-group {
+			}
+			.form-control {
+				font-size: 18px;
+			}
+			.control-label {
+				font-size: 13px;
+			}
+			.requiredfield {
+			}
+			.getstarted .btn {
+				margin-top: 12px;
+				font-size: 15px;
+			}
+			.spam { 
+				text-align: right;
+				font-size: 11px;
+			}
+		}
+	}
+}
+
+@media (min-width: @screen-lg-min) {
+	.page-template-template-landingpage1-php .calltoaction {
+		.ebookpics {
+			background-size: 408px;
+		}
+		h2 {
+			font-family: 'brandon_textthin';
+			font-size: 48px;
+		}
+		h4 {
+			color: #4A7475;
+			line-height: 1.5;
+			margin-bottom: 30px;
+		}
+		.form-horizontal  {
+			padding: 20px;
+			padding-bottom: 5px;
+			font-size: 18px;
+			.form-group {
+			}
+			.form-control {
+				font-size: 18px;
+			}
+			.control-label {
+				font-size: 16px;
+			}
+			.requiredfield {
+				font-size: 12px;
+				color: #7AAAAB;
+			}
+			.getstarted .btn {
+				margin-top: 6px;
+				font-size: 16px;
+			}
+			.spam { 
+				text-align: right;
+				font-size: 12px;
+				margin-top: 4px;
+			}
+		}
+	}
+}
+
+@media 
+(-webkit-min-device-pixel-ratio: 1.5), 
+(min-resolution: 144dpi){ 
+	.page-template-template-landingpage1-php .hometestimonials {
+		.testimonial1 {
+			background: url(../img/testimonial1@2X.jpg) no-repeat center top;
+			background-size: 140px;
+		}
+		.testimonial2 {
+			background: url(../img/testimonial2@2X.jpg) no-repeat center top;
+			background-size: 140px;
+		}
+		.testimonial3 {
+			background: url(../img/testimonial3@2X.jpg) no-repeat center top;
+			background-size: 140px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
